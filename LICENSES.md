@@ -1,6 +1,6 @@
 # Licences and attribution
 
-This file is the licence audit for **Emoji Merge**. It lists every file that
+This file is the licence audit for **Plopmoji**. It lists every file that
 ships in the build, who owns it, and what the licence requires of us. Run
 `node tools/license-check.mjs` to verify the build still matches this document.
 
