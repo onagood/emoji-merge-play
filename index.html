@@ -91,6 +91,8 @@
   <div class="hill hill-2"></div>
   <div class="hill hill-3"></div>
   <div class="ground"></div>
+  <!-- Sheep on the far hill's face, filled in by buildDecor: behind the fence, so on a low hill they peek over it -->
+  <div class="sheep-flock" id="sheepFlock" aria-hidden="true"></div>
   <div class="cloud-shadow cs-1"></div>
   <div class="cloud-shadow cs-2"></div>
   <div class="cloud-shadow cs-3"></div>
@@ -132,7 +134,7 @@
     </defs>
   </svg>
   <!-- The old tree at the meadow's edge, behind the bushes; the snowman by the fence in winter -->
-  <div class="tree" aria-hidden="true"><div class="tree-crown"><i></i><i></i><i></i><i></i></div><div class="tree-trunk"></div></div>
+  <div class="tree" aria-hidden="true"><div class="tree-body"><div class="tree-trunk"></div><div class="tree-crown"><i></i><i></i><i></i><i></i></div></div></div>
   <div class="snowman" aria-hidden="true"><i class="buttons"></i><i class="face"></i><i class="nose"></i><i class="hat"></i></div>
   <svg class="bush bush-1" viewBox="0 0 100 64" aria-hidden="true"><g class="bush-inner"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(28 30)" color="#ff8fb8"/><use href="#bushFlower" transform="translate(52 22) scale(0.9)" color="#ff8fb8"/>
@@ -150,8 +152,6 @@
   <div class="sign" aria-hidden="true"><span class="sign-text" id="signText">HELLO!</span></div>
   <!-- Butterflies and bees, filled in by buildDecor -->
   <div class="critters" id="critters" aria-hidden="true"></div>
-  <!-- Sheep on the far hill, filled in by buildDecor; and the lightning's flash -->
-  <div class="sheep-flock" id="sheepFlock" aria-hidden="true"></div>
   <div class="flash" aria-hidden="true"></div>
   <!-- Fireflies over the meadow after dark, and a lantern on the gate post -->
   <div class="fireflies" id="fireflies" aria-hidden="true"></div>
