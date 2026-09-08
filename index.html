@@ -17,6 +17,8 @@
   <div class="stars" id="stars"></div>
   <!-- Night sky items: the Milky Way's band, a shooting star's streak -->
   <div class="milky" aria-hidden="true"></div>
+  <!-- Northern lights on winter nights: two curtains that drift -->
+  <div class="aurora" aria-hidden="true"><i></i><i></i></div>
   <div class="meteor" id="meteor" aria-hidden="true"></div>
   <div class="rainbow" id="rainbow" aria-hidden="true"></div>
 
@@ -46,6 +48,9 @@
     <div class="cloud-body" style="width:100px;height:24px"></div>
     <div class="cloud-puff" style="left:30px;bottom:8px;width:52px;height:52px"></div>
   </div></div>
+
+  <!-- A hot-air balloon, once in a long while -->
+  <div class="balloon" id="balloon" aria-hidden="true"><span class="balloon-hop"><i class="balloon-env"></i><i class="balloon-ropes"></i><i class="balloon-basket"></i></span></div>
 
   <div class="sun" id="sun"></div>
   <div class="moon" id="moon"><svg class="moon-svg" viewBox="-37 -37 74 74" aria-hidden="true">
@@ -126,6 +131,9 @@
       </g>
     </defs>
   </svg>
+  <!-- The old tree at the meadow's edge, behind the bushes; the snowman by the fence in winter -->
+  <div class="tree" aria-hidden="true"><div class="tree-crown"><i></i><i></i><i></i><i></i></div><div class="tree-trunk"></div></div>
+  <div class="snowman" aria-hidden="true"><i class="buttons"></i><i class="face"></i><i class="nose"></i><i class="hat"></i></div>
   <svg class="bush bush-1" viewBox="0 0 100 64" aria-hidden="true"><g class="bush-inner"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(28 30)" color="#ff8fb8"/><use href="#bushFlower" transform="translate(52 22) scale(0.9)" color="#ff8fb8"/>
     <use href="#bushFlower" transform="translate(74 30)" color="#ffb3cf"/><use href="#bushFlower" transform="translate(40 46) scale(0.85)" color="#ff8fb8"/>
@@ -142,6 +150,9 @@
   <div class="sign" aria-hidden="true"><span class="sign-text" id="signText">HELLO!</span></div>
   <!-- Butterflies and bees, filled in by buildDecor -->
   <div class="critters" id="critters" aria-hidden="true"></div>
+  <!-- Sheep on the far hill, filled in by buildDecor; and the lightning's flash -->
+  <div class="sheep-flock" id="sheepFlock" aria-hidden="true"></div>
+  <div class="flash" aria-hidden="true"></div>
   <!-- Fireflies over the meadow after dark, and a lantern on the gate post -->
   <div class="fireflies" id="fireflies" aria-hidden="true"></div>
   <div class="lantern" aria-hidden="true"></div>
