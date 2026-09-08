@@ -150,15 +150,15 @@
   <div class="lighthouse" aria-hidden="true"><i class="lh-beam"></i></div>
   <div class="umbrella" aria-hidden="true"><i class="umb-towel"></i><i class="umb-pole"></i><i class="umb-top"></i></div>
   <div class="beehive" aria-hidden="true"><i class="hive-legs"></i><i class="hive-box"></i><i class="hive-roof"></i></div>
-  <svg class="bush bush-1" viewBox="0 0 100 64" aria-hidden="true"><g class="bush-inner"><use href="#bushShape"/>
+  <svg class="bush bush-1" viewBox="0 0 100 64" aria-hidden="true"><ellipse class="bush-shadow" cx="52" cy="60" rx="46" ry="4.5"/><g class="bush-inner"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(28 30)" color="#ff8fb8"/><use href="#bushFlower" transform="translate(52 22) scale(0.9)" color="#ff8fb8"/>
     <use href="#bushFlower" transform="translate(74 30)" color="#ffb3cf"/><use href="#bushFlower" transform="translate(40 46) scale(0.85)" color="#ff8fb8"/>
     <use href="#bushFlower" transform="translate(84 46) scale(0.8)" color="#ffb3cf"/></g></svg>
-  <svg class="bush bush-2" viewBox="0 0 100 64" aria-hidden="true"><g class="bush-inner" style="animation-delay:-1.1s"><use href="#bushShape"/>
+  <svg class="bush bush-2" viewBox="0 0 100 64" aria-hidden="true"><ellipse class="bush-shadow" cx="52" cy="60" rx="46" ry="4.5"/><g class="bush-inner" style="animation-delay:-1.1s"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(22 42)" color="#fff7f0"/><use href="#bushFlower" transform="translate(44 18) scale(0.9)" color="#fff7f0"/>
     <use href="#bushFlower" transform="translate(64 30)" color="#fff7f0"/><use href="#bushFlower" transform="translate(86 38) scale(0.85)" color="#fff7f0"/>
     <use href="#bushFlower" transform="translate(52 48) scale(0.8)" color="#fff7f0"/><use href="#bushFlower" transform="translate(76 16) scale(0.75)" color="#fff7f0"/></g></svg>
-  <svg class="bush bush-3" viewBox="0 0 100 64" aria-hidden="true"><g class="bush-inner" style="animation-delay:-2.3s"><use href="#bushShape"/>
+  <svg class="bush bush-3" viewBox="0 0 100 64" aria-hidden="true"><ellipse class="bush-shadow" cx="52" cy="60" rx="46" ry="4.5"/><g class="bush-inner" style="animation-delay:-2.3s"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(30 26)" color="#c9a7ff"/><use href="#bushFlower" transform="translate(60 20) scale(0.9)" color="#c9a7ff"/>
     <use href="#bushFlower" transform="translate(80 36) scale(0.85)" color="#dcc7ff"/><use href="#bushFlower" transform="translate(46 44) scale(0.8)" color="#dcc7ff"/></g></svg>
   <!-- Where the fence stands, in pixels: measured once so the critters and the sign know the line on any layout -->
@@ -436,6 +436,10 @@
     <div class="card card-scroll">
       <div class="card-title">SETTINGS</div>
       <div id="settingRows"></div>
+      <div class="panel">
+        <div class="panel-title">Effects</div>
+        <div class="chip-row" id="fxChips"></div>
+      </div>
       <div class="panel" id="dayPanel" hidden>
         <div class="panel-title">Time of day</div>
         <div class="chip-row" id="dayChips"></div>
