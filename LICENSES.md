@@ -40,6 +40,14 @@ Written from scratch for this project, with no third-party code or assets:
   project with the built-in image generation tool using the approved concept
   sheet as a reference. Their provenance is recorded in
   `assets/animals/PROVENANCE.md`; these are separate from the Twemoji artwork.
+- Meadow decorations in `assets/meadow/` were generated for this project with
+  the built-in image generation tool. Transparent originals and preparation
+  details are recorded in `assets/meadow/PROVENANCE.md`; they are not Twemoji.
+- Box and weather illustrations in `assets/shop/` were generated with the
+  built-in image generation tool. Source hashes, prompts and technical
+  preparation are documented in `assets/shop/PROVENANCE.md`.
+- Repeating lawn textures in `assets/lawn/` use new generated artwork,
+  documented in `assets/lawn/PROVENANCE.md`.
 
 ---
 
@@ -130,8 +138,8 @@ submitted.
   appears.
 - No copied game code. The merge rules, scoring, effects and interface are
   original.
-- No AI-generated image or audio assets, so there is no question over their
-  rights.
+- No recorded audio assets; sound is synthesised in the game. Generated
+  illustrations are documented in the provenance files listed above.
 
 ---
 
