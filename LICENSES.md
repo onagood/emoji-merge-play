@@ -36,6 +36,10 @@ Written from scratch for this project, with no third-party code or assets:
   file is used, so there is no audio licence to satisfy and no audio asset in
   the build.
 - The visual design, carried over from the project's own design canvas.
+- Animals body illustrations in `assets/animals/` were generated for this
+  project with the built-in image generation tool using the approved concept
+  sheet as a reference. Their provenance is recorded in
+  `assets/animals/PROVENANCE.md`; these are separate from the Twemoji artwork.
 
 ---
 
@@ -59,7 +63,8 @@ screen, and `tools/license-check.mjs` fails the build if the banner is stripped.
 
 - Version 14.0.2, © Twitter, Inc. and other contributors.
 - Licence text: `assets/emoji/LICENSE-GRAPHICS.txt`.
-- Used for every emoji drawn in the game, both the pieces and the interface.
+- Used for interface emoji and the other sets. Animals uses the original
+  body sprites and the game's own animated face renderer.
 
 **Why bundled artwork instead of system emoji:** the same emoji looks
 different on Windows, Android, iOS and macOS. Shipping one set keeps the game
