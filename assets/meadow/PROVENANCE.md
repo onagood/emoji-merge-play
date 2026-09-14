@@ -44,3 +44,18 @@ Runtime raster icons are 96 px; scene sizes follow their actual display sizes.
 All PNG masters stay outside Git tracking; their hashes and sizes are recorded
 in `tools/meadow-source-manifest.json`. Rebuild/archive instructions:
 `art-source/shop/MEADOW-ARCHIVE.md`.
+
+On 2026-09-14, `tools/prepare-meadow.py` was extended with technical preparation
+of the retained illustrations: the sign's exposed post is masked off, an interior
+83 px fence period excludes transparent rail caps, and four sheep feet are
+separated onto aligned 132 x 100 canvases. The wool overlaps the foot roots;
+runtime rotation uses matching pivots and stops when a sheep pauses. No new
+illustration or external artwork was used for these layers.
+
+The default Animals box frame was generated with the built-in ImageGen tool
+on 2026-09-14. Exact prompt: `tools/meadow-box-generation.json`. The local
+master is `art-source/box-meadow/frame-generated.png`; technical alpha cleanup
+and the 512px transparent WebP export are reproducible with
+`tools/prepare-meadow-box.py`. It is rendered with nine-slice borders, keeping
+the original play-area and floor coordinates. Purchased box skins retain
+their own appearance.
