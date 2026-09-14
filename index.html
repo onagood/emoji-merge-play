@@ -69,10 +69,6 @@
       <circle r="37" fill="url(#moonRim)"/>
     </g>
   </svg></div>
-  <!-- Space backdrop items: a ringed planet over the dunes, a satellite now and then -->
-  <div class="planet" aria-hidden="true"><i class="ring ring-back"></i><i class="planet-disc"></i><i class="ring ring-front"></i></div>
-  <div class="rocket" id="rocket" aria-hidden="true"><span class="rocket-ship" id="rocketShip"></span><i class="rocket-flame"></i></div>
-  <div class="satellite" id="satellite" aria-hidden="true"><i class="sat-panel"></i><i class="sat-body"></i><i class="sat-panel"></i></div>
   <!-- A hot-air balloon, once in a long while: in front of the sun and the moon -->
   <div class="balloon" id="balloon" aria-hidden="true"><span class="balloon-hop"><i class="balloon-env"></i><i class="balloon-ropes"></i><i class="balloon-basket"></i></span></div>
   <!-- A little helicopter now and then, towing a friendly word across the sky -->
@@ -89,13 +85,12 @@
   </span></div>
 
   <!-- HILLS & GROUND -->
-  <div class="hill hill-1"><i class="wave wave-1"><b></b></i><i class="wave wave-2"><b></b></i><i class="wave wave-3"><b></b></i></div>
+  <div class="hill hill-1"></div>
   <div class="tractor" id="tractor" aria-hidden="true"></div>
   <!-- Dust off the wheels, in the traffic's own layer so the nearer hills hide it with the vehicle -->
   <div class="dust" id="dust" aria-hidden="true"></div>
   <div class="hill hill-2"></div>
   <div class="hill hill-3"></div>
-  <!-- On the shore: the sun's and the moon's light on the water, under each -->
   <div class="glitter glitter-sun" id="glitterSun" aria-hidden="true"></div>
   <div class="glitter glitter-moon" id="glitterMoon" aria-hidden="true"></div>
   <!-- Rings of ripple spreading on the water now and then -->
@@ -108,10 +103,7 @@
   <div class="cloud-shadow cs-3"></div>
   <!-- Weather, bought layer by layer: morning fog on the hills, the rain itself -->
   <div class="fog" id="fog" aria-hidden="true"></div>
-  <!-- Backdrop branches on the ground and by the fence -->
-  <div class="crater-glow" aria-hidden="true"></div>
-  <div class="shells" aria-hidden="true"><i class="shell" style="left:4%;bottom:70%;width:6px;height:5px;transform:rotate(-12deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:9%;bottom:30%;width:9px;height:7px;transform:rotate(20deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:14%;bottom:55%;width:8px;height:7px;transform:rotate(8deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:19%;bottom:12%;width:7px;height:6px;transform:rotate(-30deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:24%;bottom:80%;width:6px;height:5px;transform:rotate(15deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:31%;bottom:40%;width:9px;height:7px;transform:rotate(-8deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:38%;bottom:22%;width:8px;height:7px;transform:rotate(25deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell starfish" style="left:45%;bottom:66%;width:9px;height:9px;transform:rotate(-20deg)"><svg viewBox="0 0 24 24"><path d="M12 1.5 L14.8 9 L22.5 9.6 L16.6 14.6 L18.6 22.2 L12 18 L5.4 22.2 L7.4 14.6 L1.5 9.6 L9.2 9 Z" fill="#ff9a5c" stroke="#c9663a" stroke-width="1.5" stroke-linejoin="round"/><g fill="#ffd2b0"><circle cx="12" cy="12" r="1.2"/><circle cx="12" cy="6" r="0.8"/><circle cx="17.5" cy="10.5" r="0.8"/><circle cx="6.5" cy="10.5" r="0.8"/><circle cx="9" cy="17" r="0.8"/><circle cx="15" cy="17" r="0.8"/></g></svg></i><i class="shell" style="left:54%;bottom:35%;width:6px;height:5px;transform:rotate(10deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:63%;bottom:78%;width:9px;height:7px;transform:rotate(-15deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:71%;bottom:18%;width:8px;height:7px;transform:rotate(30deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell" style="left:79%;bottom:50%;width:7px;height:6px;transform:rotate(-6deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i><i class="shell starfish" style="left:86%;bottom:72%;width:9px;height:9px;transform:rotate(18deg)"><svg viewBox="0 0 24 24"><path d="M12 1.5 L14.8 9 L22.5 9.6 L16.6 14.6 L18.6 22.2 L12 18 L5.4 22.2 L7.4 14.6 L1.5 9.6 L9.2 9 Z" fill="#ff9a5c" stroke="#c9663a" stroke-width="1.5" stroke-linejoin="round"/><g fill="#ffd2b0"><circle cx="12" cy="12" r="1.2"/><circle cx="12" cy="6" r="0.8"/><circle cx="17.5" cy="10.5" r="0.8"/><circle cx="6.5" cy="10.5" r="0.8"/><circle cx="9" cy="17" r="0.8"/><circle cx="15" cy="17" r="0.8"/></g></svg></i><i class="shell" style="left:93%;bottom:28%;width:9px;height:7px;transform:rotate(-25deg)"><svg viewBox="0 0 24 20"><path d="M12 19 L2.5 7.5 A10 8.5 0 0 1 21.5 7.5 Z" fill="#fff1dc" stroke="#b58b5e" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 19 L6 5.5 M12 19 L12 2.5 M12 19 L18 5.5 M12 19 L3.5 10 M12 19 L20.5 10" stroke="#d2ac82" stroke-width="1" fill="none"/></svg></i></div>
-  <div class="sunflowers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <!-- Branches on the ground and by the fence -->
   <div class="rain" id="rain" aria-hidden="true"><div class="drops" id="drops"></div></div>
   <!-- What drifts down through a season: leaves in autumn, petals in spring -->
   <div class="fall" id="fall" aria-hidden="true"></div>
@@ -121,8 +113,6 @@
   <div class="bale bale-3" aria-hidden="true"></div>
   <!-- Faint gusts: thin streaks that skim across the meadow now and then -->
   <div class="gusts" id="gusts" aria-hidden="true"></div>
-  <!-- The road's billboard stands behind the guardrail, its legs in the ground -->
-  <div class="billboard" aria-hidden="true"><i class="bb-legs"></i><i class="bb-board"><span id="billboardText">HELLO!</span></i></div>
   <div class="fence" id="fence"></div>
   <div class="fence-rail rail-top"></div>
   <div class="fence-rail rail-bottom"></div>
@@ -151,18 +141,7 @@
   <!-- The old tree at the meadow's edge, behind the bushes; the snowman by the fence in winter -->
   <div class="tree" aria-hidden="true"><div class="tree-body"><div class="tree-trunk"></div><div class="tree-crown"><i></i><i></i><i></i><i></i></div><svg class="tree-bare" viewBox="0 0 120 152" aria-hidden="true"><g fill="none" stroke="#1a1226" stroke-linecap="round" stroke-linejoin="round"><path d="M60 152 C61 126 59 104 56 86" stroke-width="16"/><path d="M57 94 C48 80 38 72 24 64" stroke-width="7"/><path d="M24 64 C18 58 13 50 11 40" stroke-width="4"/><path d="M30 68 C26 60 27 52 32 44" stroke-width="3.5"/><path d="M58 88 C64 70 74 58 92 50" stroke-width="7"/><path d="M92 50 C100 46 108 38 112 26" stroke-width="4"/><path d="M80 58 C84 48 85 40 83 30" stroke-width="3.5"/><path d="M57 88 C58 72 60 56 62 40" stroke-width="6"/><path d="M62 40 C60 30 63 22 67 14" stroke-width="3.5"/><path d="M60 54 C54 46 50 38 49 28" stroke-width="3"/></g></svg></div></div>
   <div class="snowman" aria-hidden="true"><i class="buttons"></i><i class="face"></i><i class="nose"></i><i class="hat"></i></div>
-  <div class="lighthouse" aria-hidden="true"><i class="lh-beam"></i></div>
-  <!-- Picnic: basket on a cloth, a pitcher and glasses; bunting along the fence -->
   <div class="basket" aria-hidden="true"><i class="cloth"></i><i class="basket-body"></i><i class="basket-lid"></i><i class="basket-handle"></i></div>
-  <div class="lemonade" aria-hidden="true"><i class="blanket"></i><i class="pitcher"></i><i class="glass glass-1"></i><i class="glass glass-2"></i></div>
-  <div class="bunting" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-  <!-- Road: lamp posts, a traffic light, a billboard with the sign's words -->
-  <div class="traffic-light" aria-hidden="true"><i class="tl-post"></i><i class="tl-box"><b class="tl-red"></b><b class="tl-amber"></b><b class="tl-green"></b></i></div>
-  <!-- Spooky: pumpkins, headstones, a bare tree -->
-  <div class="pumpkins" aria-hidden="true"><i class="pumpkin pumpkin-1"></i><i class="pumpkin pumpkin-2"></i></div>
-  <div class="graves" aria-hidden="true"><i class="grave grave-1"></i><i class="grave grave-2"></i></div>
-  <div class="umbrella" aria-hidden="true"><i class="umb-towel"></i><i class="umb-pole"></i><i class="umb-top"></i></div>
-  <div class="beehive" aria-hidden="true"><i class="hive-legs"></i><i class="hive-box"></i><i class="hive-roof"></i></div>
   <svg class="bush bush-1" viewBox="0 0 100 64" aria-hidden="true"><ellipse class="bush-shadow" cx="52" cy="60" rx="46" ry="4.5"/><g class="bush-inner"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(28 30)" color="#ff8fb8"/><use href="#bushFlower" transform="translate(52 22) scale(0.9)" color="#ff8fb8"/>
     <use href="#bushFlower" transform="translate(74 30)" color="#ffb3cf"/><use href="#bushFlower" transform="translate(40 46) scale(0.85)" color="#ff8fb8"/>
@@ -174,11 +153,6 @@
   <svg class="bush bush-3" viewBox="0 0 100 64" aria-hidden="true"><ellipse class="bush-shadow" cx="52" cy="60" rx="46" ry="4.5"/><g class="bush-inner" style="animation-delay:-2.3s"><use href="#bushShape"/>
     <use href="#bushFlower" transform="translate(30 26)" color="#c9a7ff"/><use href="#bushFlower" transform="translate(60 20) scale(0.9)" color="#c9a7ff"/>
     <use href="#bushFlower" transform="translate(80 36) scale(0.85)" color="#dcc7ff"/><use href="#bushFlower" transform="translate(46 44) scale(0.8)" color="#dcc7ff"/></g></svg>
-  <!-- Road lamps in the foreground, in front of the bushes and the tree -->
-  <div class="streetlight streetlight-1" aria-hidden="true"><i class="lamp-post"></i><i class="lamp-arm"></i><i class="lamp-head"></i><i class="lamp-glow"></i></div>
-  <div class="streetlight streetlight-2" aria-hidden="true"><i class="lamp-post"></i><i class="lamp-arm"></i><i class="lamp-head"></i><i class="lamp-glow"></i></div>
-  <div class="streetlight streetlight-3" aria-hidden="true"><i class="lamp-post"></i><i class="lamp-arm"></i><i class="lamp-head"></i><i class="lamp-glow"></i></div>
-  <div class="streetlight streetlight-4" aria-hidden="true"><i class="lamp-post"></i><i class="lamp-arm"></i><i class="lamp-head"></i><i class="lamp-glow"></i></div>
   <!-- Where the fence stands, in pixels: measured once so the critters and the sign know the line on any layout -->
   <i class="fence-line" id="fenceLine" aria-hidden="true"></i>
   <div class="sign" aria-hidden="true"><span class="sign-text" id="signText">HELLO!</span></div>
@@ -233,11 +207,6 @@
         <div class="wall wall-r"></div>
         <div class="box-base"></div>
         <div class="box-rim"></div>
-        <div class="space-extras" hidden>
-          <div class="space-window"></div>
-          <div class="space-lamp"></div>
-        </div>
-        <div class="food-tape" hidden></div>
 
         <div class="box-inner" id="boxInner">
           <div class="gloss"></div>
@@ -307,16 +276,6 @@
     </div>
   </div>
 
-  <!-- ================= PICK A SET (after PLAY) ================= -->
-  <div class="overlay scrim" id="setScreen" hidden>
-    <div class="card card-scroll">
-      <div class="card-title">PICK A SET</div>
-      <div class="card-sub">Finish a set — make its last piece — to open the next one.</div>
-      <div class="set-grid" id="setChips"></div>
-      <button class="btn-text" data-action="close">Back</button>
-    </div>
-  </div>
-
   <!-- ================= SHOP ================= -->
   <div class="overlay scrim" id="shopScreen" hidden>
     <div class="card card-scroll">
@@ -336,10 +295,6 @@
           <form class="sign-form" id="signForm" hidden>
             <input class="sign-input" id="signInput" type="text" maxlength="16" autocomplete="off" spellcheck="false" placeholder="HELLO!" aria-label="Sign text">
             <button class="btn-pill" type="submit">Paint</button>
-          </form>
-          <form class="sign-form" id="billboardForm" hidden>
-            <input class="sign-input" id="billboardInput" type="text" maxlength="16" autocomplete="off" spellcheck="false" placeholder="HELLO!" aria-label="Billboard text">
-            <button class="btn-pill" type="submit">Light up</button>
           </form>
         </span>
         <div class="shop-detail-actions">
@@ -467,10 +422,6 @@
       <div class="panel" id="dayPanel" hidden>
         <div class="panel-title">Time of day</div>
         <div class="chip-row" id="dayChips"></div>
-      </div>
-      <div class="panel" id="backdropPanel" hidden>
-        <div class="panel-title">Backdrop</div>
-        <div class="chip-row" id="backdropChips"></div>
       </div>
       <div class="panel" id="seasonPanel" hidden>
         <div class="panel-title">Season</div>
